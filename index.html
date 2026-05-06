@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="JAWFUEL — premium mastic gum engineered for the jaw. 0 sugar, 0 calories, 0 smell. Chew anywhere, all day." />
-<title>JAWFUEL — Built for the Jaw</title>
+<meta name="description" content="MOGGMAXX — premium mastic gum engineered for the jaw. 0 sugar, 0 calories, 0 smell. Chew anywhere, all day." />
+<title>MOGGMAXX — Built for the Jaw</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -313,7 +313,7 @@
 
 <!-- ============ NAV ============ -->
 <nav class="nav">
-  <div class="logo">JAW<span>FUEL</span></div>
+  <div class="logo">MOGG<span>MAXX</span></div>
   <div class="nav-links">
     <a href="#shop">Shop</a>
     <a href="#science">Science</a>
@@ -353,7 +353,7 @@
       <rect x="60" y="60" width="280" height="40" rx="20" fill="url(#tinFace)" stroke="#444"/>
       <rect x="60" y="80" width="280" height="180" rx="20" fill="url(#tinFace)"/>
       <rect x="80" y="100" width="240" height="140" rx="8" fill="#0d0d0d" stroke="#222"/>
-      <text x="200" y="150" text-anchor="middle" fill="#d6ff3d" font-family="Anton, sans-serif" font-size="40" letter-spacing="3">JAWFUEL</text>
+      <text x="200" y="150" text-anchor="middle" fill="#d6ff3d" font-family="Anton, sans-serif" font-size="40" letter-spacing="3">MOGGMAXX</text>
       <text x="200" y="180" text-anchor="middle" fill="#a09e98" font-family="Inter, sans-serif" font-size="11" letter-spacing="3">PREMIUM MASTIC GUM</text>
       <line x1="120" y1="195" x2="280" y2="195" stroke="#333"/>
       <text x="200" y="220" text-anchor="middle" fill="#f5f3ee" font-family="Inter, sans-serif" font-size="12" letter-spacing="2">28 PIECES · MINT FROST</text>
@@ -381,7 +381,7 @@
 
 <!-- ============ BENEFITS ============ -->
 <div class="section-head">
-  <div class="eyebrow">Why JAWFUEL</div>
+  <div class="eyebrow">Why MOGGMAXX</div>
   <h2>BUILT DIFFERENT.<br>CHEWED DIFFERENT.</h2>
 </div>
 <div class="benefits">
@@ -500,7 +500,7 @@
 <footer>
   <div class="foot-grid">
     <div>
-      <div class="logo" style="margin-bottom:14px">JAW<span>FUEL</span></div>
+      <div class="logo" style="margin-bottom:14px">MOGG<span>MAXX</span></div>
       <p style="color:var(--ink-dim);font-size:13px;line-height:1.6;max-width:280px">Premium mastic gum from Chios, Greece. Engineered for the modern jaw.</p>
     </div>
     <div>
@@ -517,13 +517,13 @@
     </div>
     <div>
       <h4>Support</h4>
-      <a href="mailto:hello@jawfuel.in">Contact</a>
+      <a href="mailto:hello@moggmaxx.in">Contact</a>
       <a href="#">Shipping</a>
       <a href="#">Returns</a>
     </div>
   </div>
   <div class="foot-bottom">
-    <div>© 2026 JAWFUEL. All rights reserved.</div>
+    <div>© 2026 MOGGMAXX. All rights reserved.</div>
     <div>Not a medical device. FSSAI Lic No. (pending). Made in India.</div>
   </div>
 </footer>
@@ -577,12 +577,12 @@
   // ============ STATE (persisted) ============
   let cart = [];
   try {
-    const saved = localStorage.getItem('jawfuel_cart');
+    const saved = localStorage.getItem('moggmaxx_cart');
     if(saved) cart = JSON.parse(saved);
   } catch(e) {}
 
   function saveCart(){
-    try { localStorage.setItem('jawfuel_cart', JSON.stringify(cart)); } catch(e) {}
+    try { localStorage.setItem('moggmaxx_cart', JSON.stringify(cart)); } catch(e) {}
   }
 
   // ============ RENDER PRODUCTS ============
@@ -597,7 +597,7 @@
           <div class="img-wrap">
             <svg viewBox="0 0 200 160" style="width:80%;height:auto" xmlns="http://www.w3.org/2000/svg">
               <rect x="20" y="30" width="160" height="100" rx="12" fill="#0d0d0d" stroke="#2a2a2a"/>
-              <text x="100" y="75" text-anchor="middle" fill="#d6ff3d" font-family="Anton, sans-serif" font-size="22" letter-spacing="2">JAWFUEL</text>
+              <text x="100" y="75" text-anchor="middle" fill="#d6ff3d" font-family="Anton, sans-serif" font-size="22" letter-spacing="2">MOGGMAXX</text>
               <text x="100" y="92" text-anchor="middle" fill="#a09e98" font-family="Inter, sans-serif" font-size="6" letter-spacing="2">PREMIUM MASTIC GUM</text>
               <line x1="60" y1="100" x2="140" y2="100" stroke="#333"/>
               <text x="100" y="115" text-anchor="middle" fill="#f5f3ee" font-family="Inter, sans-serif" font-size="7" letter-spacing="1">${p.sub.toUpperCase()}</text>
@@ -711,7 +711,7 @@
       <div>
         ${cart.map(c => `
           <div class="cart-line">
-            <div class="thumb">JF</div>
+            <div class="thumb">MX</div>
             <div class="info">
               <div class="ttl">${c.name}</div>
               <div class="meta">${c.sub} · ₹${c.price}</div>
@@ -854,7 +854,7 @@
     //        key: 'rzp_live_YOUR_KEY_ID',           // <- your public key
     //        amount: (cartTotal()) * 100,            // paise
     //        currency: 'INR',
-    //        name: 'JAWFUEL',
+    //        name: 'MOGGMAXX',
     //        description: 'Premium Mastic Gum',
     //        prefill: { name: shippingData.firstName + ' ' + shippingData.lastName,
     //                   email: shippingData.email, contact: shippingData.phone },
@@ -871,14 +871,14 @@
     // ====================================================================
 
     // Demo mode — generate a fake order id and show confirmation
-    const orderId = 'JF' + Date.now().toString().slice(-8);
+    const orderId = 'MX' + Date.now().toString().slice(-8);
     finalizeOrder(orderId);
   }
 
   function finalizeOrder(orderId){
     // Save order to local history
     try {
-      const orders = JSON.parse(localStorage.getItem('jawfuel_orders') || '[]');
+      const orders = JSON.parse(localStorage.getItem('moggmaxx_orders') || '[]');
       orders.push({
         id: orderId,
         date: new Date().toISOString(),
@@ -887,7 +887,7 @@
         payment: paymentMethod,
         total: cartTotal() + (paymentMethod==='cod'?49:0)
       });
-      localStorage.setItem('jawfuel_orders', JSON.stringify(orders));
+      localStorage.setItem('moggmaxx_orders', JSON.stringify(orders));
     } catch(e) {}
 
     window.lastOrderId = orderId;
@@ -905,7 +905,7 @@
       <div class="confirm-msg">
         <h3>ORDER PLACED</h3>
         <div class="modal-sub">A confirmation has been sent to ${shippingData.email||'your email'}.</div>
-        <div class="order-id">${window.lastOrderId || 'JF00000000'}</div>
+        <div class="order-id">${window.lastOrderId || 'MX00000000'}</div>
         <p style="color:var(--ink-dim);font-size:13px;line-height:1.6">
           ${paymentMethod === 'cod'
             ? 'Pay cash when your tin arrives. Standard delivery 3–6 days.'

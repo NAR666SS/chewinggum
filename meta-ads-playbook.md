@@ -1,4 +1,4 @@
-# JAWFUEL — Meta Ads Launch Playbook (India)
+# MOGGMAXX — Meta Ads Launch Playbook (India)
 **Budget tier: ₹500–1,200/day testing**
 **Goal: validate that paid Instagram traffic in India will buy a ₹599 tin of premium chewing gum**
 
@@ -10,7 +10,7 @@ This is the working plan. I'll be driving Meta Ads Manager via the Chrome extens
 
 1. **Log into Meta Business Suite** at business.facebook.com in Chrome — same tab as the Claude in Chrome extension.
 2. **Have a payment method on the ad account** (debit/credit card or UPI auto-pay). Meta won't let me launch a campaign without one attached.
-3. **A Facebook Page for JAWFUEL.** Required even for IG-only ads. Takes 2 minutes — Pages → Create New Page → name it JAWFUEL, category "Health/Beauty," skip the rest.
+3. **A Facebook Page for MOGGMAXX.** Required even for IG-only ads. Takes 2 minutes — Pages → Create New Page → name it MOGGMAXX, category "Health/Beauty," skip the rest.
 4. **Connect your Instagram Business account.** If your IG isn't a Business account: IG app → Settings → Account type → Switch to Professional → Business → category "Health/Beauty."
 5. **Pick a payment processor for the website.** Razorpay is the obvious one in India — we'll set this up after the campaign goes live, but ideally before.
 
@@ -21,7 +21,7 @@ I'll handle everything else inside Ads Manager via the browser.
 ## 1. The campaign I'm about to build
 
 ```
-CAMPAIGN: JAWFUEL — Sales — Test 1
+CAMPAIGN: MOGGMAXX — Sales — Test 1
 └── Objective: Sales (Purchase optimization)
     ├── Ad Set A: "Looksmax Broad — Tier 1 Male 18-28"
     │   └── Daily budget: ₹400
@@ -75,10 +75,10 @@ You film these on your phone. **Do not pay for production.** Phone footage outpe
 ### Creative 1 — "The Lecture Chew" (POV / native)
 **15s vertical Reel.**
 - 0–2s: You in a classroom or library, slight smirk to camera. Caption: **"POV: chewing your 4th piece in class"**
-- 2–6s: Hand slides JAWFUEL tin out of pocket under desk, slow open.
+- 2–6s: Hand slides MOGGMAXX tin out of pocket under desk, slow open.
 - 6–10s: You pop a piece, jaw flexes. Side-profile shot.
 - 10–13s: Caption: **"0 smell. 0 sugar. 6 hour chew."**
-- 13–15s: Tin spinning, end card: **jawfuel.in**
+- 13–15s: Tin spinning, end card: **moggmaxx.in**
 - **Audio:** Trending Hindi/English lo-fi or a quiet looksmax sound from Reels.
 
 ### Creative 2 — "30-Day Side Profile" (testimonial)
@@ -95,7 +95,7 @@ You film these on your phone. **Do not pay for production.** Phone footage outpe
 **12s vertical.**
 - 0–2s: Two pieces of gum on black surface. **"This is what you've been chewing →"** points at Center Fresh.
 - 2–4s: Squish it — flattens.
-- 4–6s: **"This is JAWFUEL →"** point at JAWFUEL piece.
+- 4–6s: **"This is MOGGMAXX →"** point at MOGGMAXX piece.
 - 6–8s: Press it — barely moves. **"4× harder."**
 - 8–10s: Voice-over: "Your jaw is a muscle. Train it like one."
 - 10–12s: Tin appears, end card.
@@ -111,7 +111,7 @@ the gum that gave me a side profile.
 • 5–8 hour chew
 • 100% mastic from Chios
 
-launch price: ₹599/tin → jawfuel.in
+launch price: ₹599/tin → moggmaxx.in
 free shipping over ₹999
 ```
 
@@ -119,19 +119,19 @@ free shipping over ₹999
 ```
 chewed this through every class for a month. friends started asking what changed.
 
-JAWFUEL — premium mastic gum. 0 sugar, 0 smell, all-day chew.
+MOGGMAXX — premium mastic gum. 0 sugar, 0 smell, all-day chew.
 30-day jaw-back guarantee.
 
-→ jawfuel.in
+→ moggmaxx.in
 ```
 
 **Variant C:**
 ```
 your masseter is a muscle. you've been training it with sugar.
 
-JAWFUEL is mastic resin from Chios — the highest-resistance natural chew on earth. 4× harder than commercial gum, 5–8 hour chew, scentless.
+MOGGMAXX is mastic resin from Chios — the highest-resistance natural chew on earth. 4× harder than commercial gum, 5–8 hour chew, scentless.
 
-₹599. ships pan-India. → jawfuel.in
+₹599. ships pan-India. → moggmaxx.in
 ```
 
 ---
